@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawaris Koonsri</title>
+    <link rel="stylesheet" href="aboutme-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="image/mewing.avif" alt="" class="logo">
+            <ul class="navbar-nav">
+                <li class="nav-item">First Section</li>
+                <li class="nav-item">Second Section</li>
+                <li class="nav-item">Last Section</li>
+            </ul>
+        </nav>
+    </header>
+    <!--About me-->
+    <section class="aboutme">
+        <div class="container">
+            <h2>Hi! My name is Pawaris Koonsri, I'm the most sigma boy in the world and I also love singing.</h2>
+        </div>
+    </section>
+     <!--Classes-->
+     <section class="classes">
+        <div class="container">
+            <div class="sub-container">
+                <h3>My favorite movies</h3>
+                <div class="box">
+                <div class="box-item">
+                    <h3>Code</h3>
+                    <p>name</p>
+                </div>
+                <div class="box-item">
+                    <h3>Code</h3>
+                    <p>name</p>
+                </div>
+                <div class="box-item">
+                    <h3>Code</h3>
+                    <p>name</p>
+                </div>
+                <div class="box-item">
+                    <h3>Code</h3>
+                    <p>name</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Movies-->
+    <section class="Movies">
+        <div class="container">
+            <h3>My favorite movies</h3>
+            <div class="box">
+                <div class="box-item">
+                    <img src="image/Movie1.jpg" alt="1">
+                    <a href="https://www.imdb.com/title/tt5311514/">Your name (IMDb)</a>
+                </div>
+                <div class="box-item">
+                    <img src="image/Movie2.jpeg" alt="2">
+                    <a href="https://www.imdb.com/title/tt0096283/">Totoro (IMDb)</a>
+                </div>
+                <div class="box-item">
+                    <img src="image/Movie3.jpg" alt="3">
+                    <a href="https://www.imdb.com/title/tt16428256/">Suzume (IMDb)</a>
+                </div>
+                <div class="box-item">
+                    <img src="image/Movie4.jpeg" alt="4">
+                    <a href="https://www.imdb.com/title/tt9426210/"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Mood-->
+    <section class="Mood">
+        <div class="container">
+            <h2>How do I look in the different Mood?</h2>
+            <div class="box">
+                <div class="box-item">
+                    <img src="" alt="">
+                    <p>Happy</p>
+                </div>
+                <div class="box-item">
+                    <img src="" alt="">
+                    <p>Sad</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--Neighbor-->
+    <section class="Neighbor"> 
+        <div class="container">
+            <h3>Funfact about my neighbor</h3>
+            <div>
+                <h3>Apiraya Saynakham</h3>
+                <p>Her nickname is Khing and she's studying in Software engineering but she's from Construction Technology Field</p>
+            </div>
+        </div>
+    </section>
+    
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
