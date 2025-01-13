@@ -38,6 +38,10 @@ body{
     margin:0;
     width:100%;
 }
+.bigcontainer{
+    background-color: rgb(245,172,15);
+    padding:10px 0 10px 0;
+}
 .aboutme .container{
     height:500px;
     background-image: url(image/me.jpeg);
@@ -52,11 +56,11 @@ body{
    font-weight: bold;
 }
 .classes .container{
-    background-color: rgb(255, 255, 255);
+
 }
 .container .sub-container{
     
-    width:80%;
+   
     margin:auto;
     padding:50px 0 100px 0;
     min-height: 300px;
@@ -101,14 +105,14 @@ body{
 
 }
 .movies .container{
-    background-color: rgb(65, 56, 42);
+   
     
 }
 .movies h2{
-    color:white;
+    color:black;
     font-size:40px;
     text-align: center;
-    padding:80px 0 250px 0;
+    padding:80px 0 100px 0;
 
 }
 
@@ -123,30 +127,31 @@ body{
     padding-bottom:100px;
 }
 .neighbor .container{
-    background: url(image/khing.jpg);
-    background-size:cover;
+    
+    
     height:500px;
-    background-position: center;
+    
+    
 }
 .neighbor h2{
     
     padding:70px;
-    font-size:45px;
+    font-size:20px;
     text-align: center;
-    color:white;
+   
 }
 .neighbor h3{
-    padding:0 100px 0 100px;
-    font-size:35px;
-    color:white;
+    padding:20px 100px 0 100px;
+    font-size:20px;
+   
 }
 
 .neighbor p{
     padding:30px 100px 0 100px;
-    min-width:500px;
-    max-width:1000px;
+    min-width:300px;
+    
     font-size: 20px;
-    color:white;
+  
 }
 
 footer{
@@ -161,4 +166,21 @@ footer p{
     font-weight: bold;
     bottom:50%;
     transform:translateY(350%);
+}
+
+.second-sec{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(255,242,204);
+    gap:20
+}
+.lastsec{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(213,232,212);
+    gap:20
+}
+.neighbor img{
+    width:500px;
+    height:500px;
 }
