@@ -1,5 +1,5 @@
 const p = document.querySelectorAll('#main p');
 
 p.forEach((paragraph) => {
-  paragraph.textContent = 'changing all P in div main';
+  paragraph.setAttribute('style','color:red; font-size:24px;');
 });
